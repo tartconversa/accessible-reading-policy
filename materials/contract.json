@@ -1,0 +1,129 @@
+{
+  "synthetic": true,
+  "description": "多格式阅读支持的适用证据与服务方案的合成输入资料；不含未来分析结论。",
+  "tables": {
+    "schools": {
+      "description": "参与学校；设备量是服务条件，不是能力指标。",
+      "fields": {
+        "id": "学校编号",
+        "area": "地区层",
+        "devices": "同时可用终端台数"
+      },
+      "references": {}
+    },
+    "people": {
+      "description": "合成人员名册；同家庭标识用于识别非独立观测，不含姓名或联系方式。",
+      "fields": {
+        "id": "人员编号",
+        "school_id": "名册学校",
+        "household": "合成家庭编号；两人可同属一个家庭",
+        "grade": "学年年级",
+        "access_need": "必要访问形式；audio为听读、text为普通文本",
+        "sample_weight": "抽样基础权重，非分析后的校正权重"
+      },
+      "references": {
+        "school_id": "schools"
+      }
+    },
+    "materials": {
+      "description": "体验文本难度联系是教研批准的输入。",
+      "fields": {
+        "id": "文本版本",
+        "family": "批准可比较的文本组",
+        "format": "paper纸本/large_text可调字号/audio听读",
+        "grade_low": "适用最低年级",
+        "grade_high": "最高年级"
+      },
+      "references": {}
+    },
+    "experiences": {
+      "description": "三期交叉体验；计划、实际和退出分别保存。",
+      "fields": {
+        "id": "体验",
+        "person_id": "学生",
+        "material_id": "计划材料",
+        "order": "体验顺序",
+        "planned_on": "计划日期",
+        "washout_days": "距前一期约定间隔天数",
+        "assignment": "random随机/preference偏好选择",
+        "actual_format": "实际形式或null",
+        "understanding": "理解原分0至100或null",
+        "burden": "主观负担1至5或null",
+        "exit_reason": "device_failure设备故障/discomfort不适/null完成"
+      },
+      "references": {
+        "person_id": "people",
+        "material_id": "materials"
+      }
+    },
+    "services": {
+      "description": "服务点供给与授权。",
+      "fields": {
+        "id": "服务点",
+        "school_id": "学校",
+        "devices": "终端总数",
+        "concurrent_audio": "听读同时授权",
+        "concurrent_text": "文本同时授权",
+        "license_end": "授权终止，不含当天",
+        "network_start": "网络可用开始",
+        "network_end": "结束",
+        "teacher_hours": "每周指导小时"
+      },
+      "references": {
+        "school_id": "schools"
+      }
+    },
+    "commitments": {
+      "description": "持续服务确认和继续观察安排。",
+      "fields": {
+        "id": "确认",
+        "person_id": "学生",
+        "service_id": "服务点",
+        "format": "确认形式",
+        "kind": "necessary必要保障/observe继续观察",
+        "from_on": "服务起日",
+        "to_on": "止日",
+        "confirmed_on": "确认日"
+      },
+      "references": {
+        "person_id": "people",
+        "service_id": "services"
+      }
+    },
+    "requests": {
+      "description": "包括失败者的实际服务请求。",
+      "fields": {
+        "id": "请求",
+        "person_id": "学生",
+        "service_id": "服务点",
+        "on": "日期",
+        "requested": "请求形式",
+        "provided": "实际提供形式或null",
+        "reason": "切换或拒绝原因",
+        "understanding": "服务后观测或null"
+      },
+      "references": {
+        "person_id": "people",
+        "service_id": "services"
+      }
+    },
+    "supply_changes": {
+      "description": "非学生主动选择的供给变化。",
+      "fields": {
+        "id": "变化",
+        "service_id": "服务点",
+        "effective_on": "生效日",
+        "received_on": "收到日",
+        "audio_limit": "新听读并发上限",
+        "devices_available": "可用设备",
+        "reason": "说明"
+      },
+      "references": {
+        "service_id": "services"
+      }
+    }
+  },
+  "notes": [
+    "理解分不能代替退出与负担；random与preference是体验安排事实。供给变更后实际切换仍保留原请求。"
+  ]
+}
