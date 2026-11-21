@@ -1,6 +1,7 @@
 """资料完整性检查，不检验尚未开发的业务能力。"""
 from pathlib import Path
 import json, tempfile, unittest
+import _bootstrap  # noqa: F401  隔离模式路径引导
 from inspect_materials import read_materials
 
 class MaterialsTests(unittest.TestCase):

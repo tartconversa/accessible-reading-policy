@@ -1,0 +1,4192 @@
+{
+  "generated_on": "2026-11-21",
+  "raw_digest": "d5c9369fc7842a3030e1d69c886c2be7f51669fa1ab360b99078c960658f11c0",
+  "evidence": {
+    "raw_digest": "d5c9369fc7842a3030e1d69c886c2be7f51669fa1ab360b99078c960658f11c0",
+    "generated_on": "2026-04-01",
+    "coverage": {
+      "paper": {
+        "format": "paper",
+        "label": "纸本",
+        "planned": 120,
+        "started": 113,
+        "completed": 107,
+        "device_failure": 7,
+        "discomfort": 6,
+        "other_incomplete": 0,
+        "completion_rate_among_started": 0.9469026548672567,
+        "score_mean": 64.7351871657754,
+        "score_ci_low": 60.85965879265089,
+        "score_ci_high": 68.47244535519125,
+        "mean_burden": 3.218987341772152,
+        "discomfort_rate_among_started": 0.05309734513274336,
+        "device_rate_among_planned": 0.058333333333333334
+      },
+      "large_text": {
+        "format": "large_text",
+        "label": "可调字号文本",
+        "planned": 120,
+        "started": 112,
+        "completed": 108,
+        "device_failure": 8,
+        "discomfort": 4,
+        "other_incomplete": 0,
+        "completion_rate_among_started": 0.9642857142857143,
+        "score_mean": 63.90338215712384,
+        "score_ci_low": 60.55579651941099,
+        "score_ci_high": 67.48114035087718,
+        "mean_burden": 3.138817480719795,
+        "discomfort_rate_among_started": 0.03571428571428571,
+        "device_rate_among_planned": 0.06666666666666667
+      },
+      "audio": {
+        "format": "audio",
+        "label": "有声听读",
+        "planned": 120,
+        "started": 113,
+        "completed": 108,
+        "device_failure": 7,
+        "discomfort": 5,
+        "other_incomplete": 0,
+        "completion_rate_among_started": 0.9557522123893806,
+        "score_mean": 67.13774278215227,
+        "score_ci_low": 64.1082175925926,
+        "score_ci_high": 70.15336683417085,
+        "mean_burden": 2.9206549118387906,
+        "discomfort_rate_among_started": 0.04424778761061947,
+        "device_rate_among_planned": 0.058333333333333334
+      }
+    },
+    "pair_evidence": [
+      {
+        "subgroup": "all=全体",
+        "arm": "random",
+        "comparison": "纸本 - 可调字号文本",
+        "n_pairs": 73,
+        "mean_difference": 1.8183365949119379,
+        "ci": [
+          -5.889804305283756,
+          9.216544715447153
+        ],
+        "p_value": 0.5482934415230252,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 73,
+            "n_imputed": 0,
+            "mean_difference": 1.8183365949119379
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 79,
+            "n_imputed": 6,
+            "mean_difference": 4.112486486486488
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 79,
+            "n_imputed": 6,
+            "mean_difference": -0.5795855855855856
+          }
+        ],
+        "sensitivity_crosses_zero": true,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "all=全体",
+        "arm": "random",
+        "comparison": "纸本 - 有声听读",
+        "n_pairs": 76,
+        "mean_difference": -4.005577981651377,
+        "ci": [
+          -10.254722222222227,
+          2.0327127659574455
+        ],
+        "p_value": 0.18191120987766018,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 76,
+            "n_imputed": 0,
+            "mean_difference": -4.005577981651377
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 82,
+            "n_imputed": 6,
+            "mean_difference": -0.98277397260274
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 82,
+            "n_imputed": 6,
+            "mean_difference": -4.922380136986302
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "all=全体",
+        "arm": "random",
+        "comparison": "可调字号文本 - 有声听读",
+        "n_pairs": 73,
+        "mean_difference": -4.398326848249027,
+        "ci": [
+          -9.722129817444213,
+          1.3247283702213273
+        ],
+        "p_value": 0.1534293637116554,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 73,
+            "n_imputed": 0,
+            "mean_difference": -4.398326848249027
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 77,
+            "n_imputed": 4,
+            "mean_difference": -2.3280811808118087
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 77,
+            "n_imputed": 4,
+            "mean_difference": -5.370571955719557
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "grade_band=低年级(3-4年级)",
+        "arm": "random",
+        "comparison": "纸本 - 可调字号文本",
+        "n_pairs": 36,
+        "mean_difference": -3.336719367588935,
+        "ci": [
+          -12.778365019011408,
+          7.159683257918552
+        ],
+        "p_value": 0.780938591356096,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 36,
+            "n_imputed": 0,
+            "mean_difference": -3.336719367588935
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 39,
+            "n_imputed": 3,
+            "mean_difference": -0.4595289855072482
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 39,
+            "n_imputed": 3,
+            "mean_difference": -5.401195652173916
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "grade_band=低年级(3-4年级)",
+        "arm": "random",
+        "comparison": "纸本 - 有声听读",
+        "n_pairs": 37,
+        "mean_difference": -10.976899224806203,
+        "ci": [
+          -20.031872791519437,
+          -1.116666666666669
+        ],
+        "p_value": 0.036232606510666815,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 37,
+            "n_imputed": 0,
+            "mean_difference": -10.976899224806203
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 40,
+            "n_imputed": 3,
+            "mean_difference": -5.930354609929081
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 40,
+            "n_imputed": 3,
+            "mean_difference": -10.956950354609932
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "A",
+        "grade_label": "充分可比证据",
+        "grade_reason": "配对≥8、CI 不跨 0、敏感性稳定且无残留警告"
+      },
+      {
+        "subgroup": "grade_band=低年级(3-4年级)",
+        "arm": "random",
+        "comparison": "可调字号文本 - 有声听读",
+        "n_pairs": 38,
+        "mean_difference": -5.377593984962406,
+        "ci": [
+          -12.56758490566038,
+          1.9851351351351336
+        ],
+        "p_value": 0.11122257318671591,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 38,
+            "n_imputed": 0,
+            "mean_difference": -5.377593984962406
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 38,
+            "n_imputed": 0,
+            "mean_difference": -5.377593984962406
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 38,
+            "n_imputed": 0,
+            "mean_difference": -5.377593984962406
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "grade_band=高年级(5-6年级)",
+        "arm": "random",
+        "comparison": "纸本 - 可调字号文本",
+        "n_pairs": 37,
+        "mean_difference": 6.873488372093023,
+        "ci": [
+          -1.4131147540983586,
+          14.978045977011499
+        ],
+        "p_value": 0.2481356789908833,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 37,
+            "n_imputed": 0,
+            "mean_difference": 6.873488372093023
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 40,
+            "n_imputed": 3,
+            "mean_difference": 8.635340501792113
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 40,
+            "n_imputed": 3,
+            "mean_difference": 4.190179211469534
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "grade_band=高年级(5-6年级)",
+        "arm": "random",
+        "comparison": "纸本 - 有声听读",
+        "n_pairs": 39,
+        "mean_difference": 2.261324041811848,
+        "ci": [
+          -4.712673992673991,
+          9.851062271062274
+        ],
+        "p_value": 0.735962710950435,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 39,
+            "n_imputed": 0,
+            "mean_difference": 2.261324041811848
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 42,
+            "n_imputed": 3,
+            "mean_difference": 3.637152317880796
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 42,
+            "n_imputed": 3,
+            "mean_difference": 0.7125496688741729
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "grade_band=高年级(5-6年级)",
+        "arm": "random",
+        "comparison": "可调字号文本 - 有声听读",
+        "n_pairs": 35,
+        "mean_difference": -3.3479838709677407,
+        "ci": [
+          -11.699230769230763,
+          5.482043478260871
+        ],
+        "p_value": 0.6464740316397679,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 35,
+            "n_imputed": 0,
+            "mean_difference": -3.3479838709677407
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 39,
+            "n_imputed": 4,
+            "mean_difference": 0.6109420289855079
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 39,
+            "n_imputed": 4,
+            "mean_difference": -5.363804347826085
+          }
+        ],
+        "sensitivity_crosses_zero": true,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "access_need=听读必要",
+        "arm": "random",
+        "comparison": "纸本 - 可调字号文本",
+        "n_pairs": 6,
+        "mean_difference": -17.271111111111114,
+        "ci": [
+          -36.08977777777778,
+          0.7848837209302301
+        ],
+        "p_value": 0.12103323083862161,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 6,
+            "n_imputed": 0,
+            "mean_difference": -17.271111111111114
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 6,
+            "n_imputed": 0,
+            "mean_difference": -17.271111111111114
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 6,
+            "n_imputed": 0,
+            "mean_difference": -17.271111111111114
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "可比配对 6 对，低于充分证据阈值 8 对"
+      },
+      {
+        "subgroup": "access_need=听读必要",
+        "arm": "random",
+        "comparison": "纸本 - 有声听读",
+        "n_pairs": 5,
+        "mean_difference": -11.105526315789469,
+        "ci": [
+          -31.837567567567568,
+          9.623076923076924
+        ],
+        "p_value": 0.3549576322034611,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 5,
+            "n_imputed": 0,
+            "mean_difference": -11.105526315789469
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 5,
+            "n_imputed": 0,
+            "mean_difference": -11.105526315789469
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 5,
+            "n_imputed": 0,
+            "mean_difference": -11.105526315789469
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "可比配对 5 对，低于充分证据阈值 8 对"
+      },
+      {
+        "subgroup": "access_need=听读必要",
+        "arm": "random",
+        "comparison": "可调字号文本 - 有声听读",
+        "n_pairs": 5,
+        "mean_difference": 0.9231578947368472,
+        "ci": [
+          -5.899302325581388,
+          10.594000000000001
+        ],
+        "p_value": 0.8328617337262597,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 5,
+            "n_imputed": 0,
+            "mean_difference": 0.9231578947368472
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 5,
+            "n_imputed": 0,
+            "mean_difference": 0.9231578947368472
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 5,
+            "n_imputed": 0,
+            "mean_difference": 0.9231578947368472
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "可比配对 5 对，低于充分证据阈值 8 对"
+      },
+      {
+        "subgroup": "access_need=普通文本必要",
+        "arm": "random",
+        "comparison": "纸本 - 可调字号文本",
+        "n_pairs": 67,
+        "mean_difference": 3.6617381974248913,
+        "ci": [
+          -4.482878151260502,
+          11.745807692307697
+        ],
+        "p_value": 0.2693603273888606,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 67,
+            "n_imputed": 0,
+            "mean_difference": 3.6617381974248913
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 73,
+            "n_imputed": 6,
+            "mean_difference": 5.999274509803922
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 73,
+            "n_imputed": 6,
+            "mean_difference": 0.8931960784313715
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "access_need=普通文本必要",
+        "arm": "random",
+        "comparison": "纸本 - 有声听读",
+        "n_pairs": 71,
+        "mean_difference": -3.4734319526627218,
+        "ci": [
+          -9.921999999999999,
+          3.0027027027027025
+        ],
+        "p_value": 0.2643541945704928,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 71,
+            "n_imputed": 0,
+            "mean_difference": -3.4734319526627218
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 77,
+            "n_imputed": 6,
+            "mean_difference": -0.27826007326007307
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 77,
+            "n_imputed": 6,
+            "mean_difference": -4.492051282051282
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "access_need=普通文本必要",
+        "arm": "random",
+        "comparison": "可调字号文本 - 有声听读",
+        "n_pairs": 68,
+        "mean_difference": -4.8231512605042015,
+        "ci": [
+          -10.565740740740742,
+          1.063644444444445
+        ],
+        "p_value": 0.14420647943257991,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 68,
+            "n_imputed": 0,
+            "mean_difference": -4.8231512605042015
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 72,
+            "n_imputed": 4,
+            "mean_difference": -2.5732142857142857
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 72,
+            "n_imputed": 4,
+            "mean_difference": -5.845099206349205
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=乡村",
+        "arm": "random",
+        "comparison": "纸本 - 可调字号文本",
+        "n_pairs": 36,
+        "mean_difference": 1.8833333333333322,
+        "ci": [
+          -6.180720000000001,
+          10.194595744680848
+        ],
+        "p_value": 0.43763271639766677,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 36,
+            "n_imputed": 0,
+            "mean_difference": 1.8833333333333322
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 38,
+            "n_imputed": 2,
+            "mean_difference": 3.3794339622641494
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 38,
+            "n_imputed": 2,
+            "mean_difference": -0.19075471698113283
+          }
+        ],
+        "sensitivity_crosses_zero": true,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=乡村",
+        "arm": "random",
+        "comparison": "纸本 - 有声听读",
+        "n_pairs": 39,
+        "mean_difference": -7.120326086956521,
+        "ci": [
+          -15.450602836879431,
+          1.3383823529411771
+        ],
+        "p_value": 0.1455033679484674,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 39,
+            "n_imputed": 0,
+            "mean_difference": -7.120326086956521
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 42,
+            "n_imputed": 3,
+            "mean_difference": -3.294849498327759
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 42,
+            "n_imputed": 3,
+            "mean_difference": -7.825886287625417
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=乡村",
+        "arm": "random",
+        "comparison": "可调字号文本 - 有声听读",
+        "n_pairs": 37,
+        "mean_difference": -6.758023255813954,
+        "ci": [
+          -14.590557768924304,
+          0.8769565217391314
+        ],
+        "p_value": 0.12466937113907173,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 37,
+            "n_imputed": 0,
+            "mean_difference": -6.758023255813954
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 39,
+            "n_imputed": 2,
+            "mean_difference": -4.074285714285715
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 39,
+            "n_imputed": 2,
+            "mean_difference": -7.3101098901098895
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=城区",
+        "arm": "random",
+        "comparison": "纸本 - 可调字号文本",
+        "n_pairs": 37,
+        "mean_difference": 1.7565648854961835,
+        "ci": [
+          -9.652272727272722,
+          12.214597701149428
+        ],
+        "p_value": 0.9135576770078886,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 37,
+            "n_imputed": 0,
+            "mean_difference": 1.7565648854961835
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 41,
+            "n_imputed": 4,
+            "mean_difference": 4.782344827586207
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 41,
+            "n_imputed": 4,
+            "mean_difference": -0.9348965517241373
+          }
+        ],
+        "sensitivity_crosses_zero": true,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=城区",
+        "arm": "random",
+        "comparison": "纸本 - 有声听读",
+        "n_pairs": 37,
+        "mean_difference": -0.8097769516728618,
+        "ci": [
+          -10.221318681318678,
+          8.198735632183906
+        ],
+        "p_value": 0.6550266999822736,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 37,
+            "n_imputed": 0,
+            "mean_difference": -0.8097769516728618
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 40,
+            "n_imputed": 3,
+            "mean_difference": 1.4428771929824569
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 40,
+            "n_imputed": 3,
+            "mean_difference": -1.8762456140350872
+          }
+        ],
+        "sensitivity_crosses_zero": true,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=城区",
+        "arm": "random",
+        "comparison": "可调字号文本 - 有声听读",
+        "n_pairs": 36,
+        "mean_difference": -2.020195312499999,
+        "ci": [
+          -9.645475285171102,
+          5.627368421052632
+        ],
+        "p_value": 0.6516186503806664,
+        "method": "加权点估计与家庭聚类加权百分位自助（2000次，种子20260401，95%CI）；配对t检验为等权参考检验，不替代加权区间",
+        "sensitivity": [
+          {
+            "scenario": "基准（仅双方完成）",
+            "n_pairs": 36,
+            "n_imputed": 0,
+            "mean_difference": -2.020195312499999
+          },
+          {
+            "scenario": "乐观（不适退出取该格式边界有利值）",
+            "n_pairs": 38,
+            "n_imputed": 2,
+            "mean_difference": -0.5559107806691442
+          },
+          {
+            "scenario": "悲观（不适退出取该格式边界不利值）",
+            "n_pairs": 38,
+            "n_imputed": 2,
+            "mean_difference": -3.402193308550184
+          }
+        ],
+        "sensitivity_crosses_zero": false,
+        "grade": "C",
+        "grade_label": "可比但证据不足",
+        "grade_reason": "自助置信区间跨 0，方向不明确"
+      }
+    ],
+    "order_and_carryover": {
+      "order_table": {
+        "paper:1": {
+          "n": 32,
+          "mean": 70.4096875
+        },
+        "paper:2": {
+          "n": 27,
+          "mean": 65.58925925925926
+        },
+        "paper:3": {
+          "n": 24,
+          "mean": 62.38416666666666
+        },
+        "large_text:1": {
+          "n": 30,
+          "mean": 67.36233333333335
+        },
+        "large_text:2": {
+          "n": 24,
+          "mean": 64.315
+        },
+        "large_text:3": {
+          "n": 26,
+          "mean": 62.06384615384614
+        },
+        "audio:1": {
+          "n": 19,
+          "mean": 68.19578947368421
+        },
+        "audio:2": {
+          "n": 31,
+          "mean": 67.37032258064518
+        },
+        "audio:3": {
+          "n": 32,
+          "mean": 70.04718749999999
+        }
+      },
+      "sequence_balance": {
+        "1": {
+          "paper": 32,
+          "large_text": 30,
+          "audio": 19
+        },
+        "2": {
+          "paper": 27,
+          "large_text": 24,
+          "audio": 31
+        },
+        "3": {
+          "paper": 24,
+          "large_text": 26,
+          "audio": 32
+        }
+      },
+      "washout_days_observed": [
+        7
+      ],
+      "washout_note": "洗脱期恒为 7 天，无变异，不能估计洗脱期效应，只能依赖残留项检验",
+      "order_coefficient": {
+        "beta": -1.9886399906754828,
+        "p_value": 0.13995642994655788
+      },
+      "carryover_f": {
+        "f": 1.44427789761599,
+        "p_value": 0.2379678229431803,
+        "df": [
+          2,
+          239
+        ],
+        "coefficients": [
+          {
+            "prior_format": "large_text",
+            "beta": -4.544027987897358,
+            "p_value": 0.16432994064223005
+          },
+          {
+            "prior_format": "audio",
+            "beta": -5.2933437991699614,
+            "p_value": 0.1414788033518185
+          }
+        ]
+      },
+      "carryover_warning": false
+    },
+    "burden_discomfort": {
+      "burden_by_format": {
+        "paper": {
+          "format": "paper",
+          "n": 87,
+          "mean": 3.232520325203252,
+          "ci_low": 2.9386401326699825,
+          "ci_high": 3.5101721439749616
+        },
+        "large_text": {
+          "format": "large_text",
+          "n": 82,
+          "mean": 3.0959860383944147,
+          "ci_low": 2.806338028169015,
+          "ci_high": 3.3723577235772364
+        },
+        "audio": {
+          "format": "audio",
+          "n": 85,
+          "mean": 2.8488372093023258,
+          "ci_low": 2.548701298701299,
+          "ci_high": 3.168316831683169
+        }
+      },
+      "burden_pair_differences": [
+        {
+          "comparison": "纸本 - 可调字号文本",
+          "n_pairs": 79,
+          "mean_difference": 0.1279279279279279,
+          "ci": [
+            -0.28729281767955817,
+            0.5821167883211681
+          ],
+          "p_value": 0.7659753891787892
+        },
+        {
+          "comparison": "纸本 - 有声听读",
+          "n_pairs": 82,
+          "mean_difference": 0.433219178082192,
+          "ci": [
+            -0.028520499108734446,
+            0.8803149606299213
+          ],
+          "p_value": 0.13311164162296896
+        },
+        {
+          "comparison": "可调字号文本 - 有声听读",
+          "n_pairs": 77,
+          "mean_difference": 0.2693726937269373,
+          "ci": [
+            -0.20036429872495448,
+            0.75
+          ],
+          "p_value": 0.3592293804472949
+        }
+      ],
+      "discomfort": {
+        "paper": {
+          "started": 113,
+          "discomfort": 6,
+          "rate": 0.05309734513274336
+        },
+        "large_text": {
+          "started": 112,
+          "discomfort": 4,
+          "rate": 0.03571428571428571
+        },
+        "audio": {
+          "started": 113,
+          "discomfort": 5,
+          "rate": 0.04424778761061947
+        }
+      }
+    },
+    "preference_arm": {
+      "n_students": 30,
+      "sequences": {
+        "有声听读,纸本,可调字号文本": 6,
+        "纸本,可调字号文本,有声听读": 7,
+        "可调字号文本,有声听读,纸本": 9,
+        "有声听读,可调字号文本,纸本": 5,
+        "可调字号文本,纸本,有声听读": 1,
+        "纸本,有声听读,可调字号文本": 2
+      },
+      "format_by_position": {
+        "1": {
+          "paper": 9,
+          "large_text": 10,
+          "audio": 11
+        },
+        "2": {
+          "paper": 7,
+          "large_text": 12,
+          "audio": 11
+        },
+        "3": {
+          "paper": 14,
+          "large_text": 8,
+          "audio": 8
+        }
+      },
+      "score_means_descriptive_only": {
+        "paper": {
+          "n": 24,
+          "mean": 61.205833333333345
+        },
+        "large_text": {
+          "n": 28,
+          "mean": 62.618571428571435
+        },
+        "audio": {
+          "n": 26,
+          "mean": 63.21076923076923
+        }
+      },
+      "interpretation": "偏好选择臂是观察性安排：格式由学生选择，选择与基础能力相关，其均值差不能解释为格式的因果效果，也不进入配对效果估计。"
+    },
+    "request_provenance": {
+      "total": 180,
+      "accepted_as_requested": 141,
+      "supply_driven_switch": 25,
+      "license_rejected": 14,
+      "switch_detail": {
+        "directions": [
+          {
+            "from": "audio",
+            "to": "large_text",
+            "count": 25
+          }
+        ],
+        "reason_field": "device_failure"
+      },
+      "interpretation": "25 条 有声听读→可调字号文本（原因 device_failure），属于供给侧故障后的被动切换，不得计作学生偏好替代格式；授权拒绝没有实际提供，也不能视为学生放弃原请求格式。"
+    },
+    "support_gaps": [
+      {
+        "subgroup": "grade_band=低年级(3-4年级)",
+        "comparison": "纸本 vs 可调字号文本",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "grade_band=低年级(3-4年级)",
+        "comparison": "可调字号文本 vs 有声听读",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "grade_band=高年级(5-6年级)",
+        "comparison": "纸本 vs 可调字号文本",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "grade_band=高年级(5-6年级)",
+        "comparison": "纸本 vs 有声听读",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "grade_band=高年级(5-6年级)",
+        "comparison": "可调字号文本 vs 有声听读",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "access_need=听读必要",
+        "comparison": "纸本 vs 可调字号文本",
+        "grade": "C",
+        "reason": "可比配对 6 对，低于充分证据阈值 8 对"
+      },
+      {
+        "subgroup": "access_need=听读必要",
+        "comparison": "纸本 vs 有声听读",
+        "grade": "C",
+        "reason": "可比配对 5 对，低于充分证据阈值 8 对"
+      },
+      {
+        "subgroup": "access_need=听读必要",
+        "comparison": "可调字号文本 vs 有声听读",
+        "grade": "C",
+        "reason": "可比配对 5 对，低于充分证据阈值 8 对"
+      },
+      {
+        "subgroup": "access_need=普通文本必要",
+        "comparison": "纸本 vs 可调字号文本",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "access_need=普通文本必要",
+        "comparison": "纸本 vs 有声听读",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "access_need=普通文本必要",
+        "comparison": "可调字号文本 vs 有声听读",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=乡村",
+        "comparison": "纸本 vs 可调字号文本",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=乡村",
+        "comparison": "纸本 vs 有声听读",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=乡村",
+        "comparison": "可调字号文本 vs 有声听读",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=城区",
+        "comparison": "纸本 vs 可调字号文本",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=城区",
+        "comparison": "纸本 vs 有声听读",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      },
+      {
+        "subgroup": "area=城区",
+        "comparison": "可调字号文本 vs 有声听读",
+        "grade": "C",
+        "reason": "自助置信区间跨 0，方向不明确"
+      }
+    ],
+    "methods": [
+      "效果估计仅使用 assignment=random 的三期交叉体验；preference 臂仅做描述性统计。",
+      "配对单位为学生，要求同一材料族内两种格式均完成（有实际形式、无退出、理解分非空）。",
+      "点估计为抽样基础权重加权均值差；置信区间为家庭聚类加权百分位自助（2000 次，种子 20260401）。",
+      "配对 t 检验为等权经典检验（p 值由正则化不完全 Beta 函数给出的精确 t 分布计算），仅作方向性参考；推断以加权自助区间为准，二者口径不同，不混用。",
+      "顺序效应以 OLS 顺序项检验；残留效应以前一期格式哑变量的联合 F 检验判断（α=0.05）。",
+      "未完成不计零分：设备故障未暴露，不插补；不适退出在敏感性分析中取该格式已观测分数的边界值。",
+      "证据分级阈值：A 需配对≥8 且 CI 不跨 0 且敏感性稳定；B 为方向明确但敏感性/残留存疑；C 为配对 3-7 或方向不明确；D 为配对<3。"
+    ],
+    "limitations": [
+      "样本为合成演练资料，所有编号仅在资料包内有效，结论不可外推到真实人群。",
+      "仅使用 F1 材料族，结论只对该难度联系（3-6 年级）成立。",
+      "洗脱期恒为 7 天、无变异，无法估计洗脱期长短对残留的影响。",
+      "资料中没有独立的缺席事件类型；当前“其他未完成”计数为 0，若未来出现缺席需单独建模。",
+      "家庭可能跨学校，聚类自助按家庭处理但未做学校层级的额外随机效应建模。",
+      "敏感性边界使用已观测分数的最小/最大值，是极端但非无界的假设；真实缺失机制可能更复杂。",
+      "偏好臂与服务请求都是观察性数据，只能描述使用与供给，不能识别因果效果。"
+    ]
+  },
+  "bundle_ranking": [
+    {
+      "bundle": [
+        "paper",
+        "audio"
+      ],
+      "feasible_everywhere": true,
+      "expected_benefit": 240.0,
+      "uncovered_risk": 0.0,
+      "per_service": {
+        "S1": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 2
+          },
+          "unsupported": []
+        },
+        "S2": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 2
+          },
+          "unsupported": []
+        },
+        "S3": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 2
+          },
+          "unsupported": []
+        },
+        "S4": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 1
+          },
+          "unsupported": []
+        },
+        "S5": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 1
+          },
+          "unsupported": []
+        },
+        "S6": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 1
+          },
+          "unsupported": []
+        }
+      }
+    },
+    {
+      "bundle": [
+        "paper",
+        "large_text",
+        "audio"
+      ],
+      "feasible_everywhere": true,
+      "expected_benefit": 240.0,
+      "uncovered_risk": 0.0,
+      "per_service": {
+        "S1": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 2
+          },
+          "unsupported": []
+        },
+        "S2": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 2
+          },
+          "unsupported": []
+        },
+        "S3": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 2
+          },
+          "unsupported": []
+        },
+        "S4": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 1
+          },
+          "unsupported": []
+        },
+        "S5": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 1
+          },
+          "unsupported": []
+        },
+        "S6": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 1
+          },
+          "unsupported": []
+        }
+      }
+    },
+    {
+      "bundle": [
+        "paper"
+      ],
+      "feasible_everywhere": true,
+      "expected_benefit": 222.0,
+      "uncovered_risk": 9.0,
+      "per_service": {
+        "S1": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P013",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P091",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S2": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P026",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P104",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S3": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P039",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P117",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S4": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P052",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S5": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P065",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S6": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P078",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bundle": [
+        "paper",
+        "large_text"
+      ],
+      "feasible_everywhere": true,
+      "expected_benefit": 222.0,
+      "uncovered_risk": 9.0,
+      "per_service": {
+        "S1": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P013",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P091",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S2": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P026",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P104",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S3": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 18,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P039",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P117",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S4": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P052",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S5": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P065",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S6": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 19,
+            "large_text": 0,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P078",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bundle": [
+        "audio"
+      ],
+      "feasible_everywhere": true,
+      "expected_benefit": 18.0,
+      "uncovered_risk": 111.0,
+      "per_service": {
+        "S1": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 0,
+            "audio": 2
+          },
+          "unsupported": [
+            {
+              "person_id": "P001",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P007",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P019",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P025",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P031",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P037",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P043",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P049",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P055",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P061",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P067",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P073",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P079",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P085",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P097",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P103",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P109",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P115",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S2": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 0,
+            "audio": 2
+          },
+          "unsupported": [
+            {
+              "person_id": "P002",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P008",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P014",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P020",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P032",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P038",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P044",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P050",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P056",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P062",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P068",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P074",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P080",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P086",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P092",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P098",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P110",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P116",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S3": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 0,
+            "audio": 2
+          },
+          "unsupported": [
+            {
+              "person_id": "P003",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P009",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P015",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P021",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P027",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P033",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P045",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P051",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P057",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P063",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P069",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P075",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P081",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P087",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P093",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P099",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P105",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P111",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S4": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 0,
+            "audio": 1
+          },
+          "unsupported": [
+            {
+              "person_id": "P004",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P010",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P016",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P022",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P028",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P034",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P040",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P046",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P058",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P064",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P070",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P076",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P082",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P088",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P094",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P100",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P106",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P112",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P118",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S5": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 0,
+            "audio": 1
+          },
+          "unsupported": [
+            {
+              "person_id": "P005",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P011",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P017",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P023",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P029",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P035",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P041",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P047",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P053",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P059",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P071",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P077",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P083",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P089",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P095",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P101",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P107",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P113",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P119",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S6": {
+          "feasible": true,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 0,
+            "audio": 1
+          },
+          "unsupported": [
+            {
+              "person_id": "P006",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P012",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P018",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P024",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P030",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P036",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P042",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P048",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P054",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P060",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P066",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P072",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P084",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P090",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P096",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P102",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P108",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P114",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P120",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "bundle": [
+        "large_text",
+        "audio"
+      ],
+      "feasible_everywhere": false,
+      "expected_benefit": 240.0,
+      "uncovered_risk": 41.93846153846154,
+      "per_service": {
+        "S1": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 18,
+            "audio": 2
+          },
+          "unsupported": []
+        },
+        "S2": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 18,
+            "audio": 2
+          },
+          "unsupported": []
+        },
+        "S3": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 18,
+            "audio": 2
+          },
+          "unsupported": []
+        },
+        "S4": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 19,
+            "audio": 1
+          },
+          "unsupported": []
+        },
+        "S5": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 19,
+            "audio": 1
+          },
+          "unsupported": []
+        },
+        "S6": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 19,
+            "audio": 1
+          },
+          "unsupported": []
+        }
+      }
+    },
+    {
+      "bundle": [
+        "large_text"
+      ],
+      "feasible_everywhere": false,
+      "expected_benefit": 222.0,
+      "uncovered_risk": 49.323076923076925,
+      "per_service": {
+        "S1": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 18,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P013",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P091",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S2": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 18,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P026",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P104",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S3": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 18,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P039",
+              "reason": "必要可访问格式不在组合内"
+            },
+            {
+              "person_id": "P117",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S4": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 19,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P052",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S5": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 19,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P065",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        },
+        "S6": {
+          "feasible": false,
+          "weekly_counts": {
+            "paper": 0,
+            "large_text": 19,
+            "audio": 0
+          },
+          "unsupported": [
+            {
+              "person_id": "P078",
+              "reason": "必要可访问格式不在组合内"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "service_plans": {
+    "S1": {
+      "service_id": "S1",
+      "capacity": {
+        "service_id": "S1",
+        "weeks": 13,
+        "student_device_slots_week": 105,
+        "audio_slots_week": 3,
+        "text_slots_week": 5,
+        "teacher_hours_cycle": 78.0,
+        "network_supports_audio": true,
+        "license_active_for_cycle": true,
+        "license_end": "2026-08-01",
+        "notes": []
+      },
+      "bundle": [
+        {
+          "format": "paper",
+          "label": "纸本"
+        },
+        {
+          "format": "large_text",
+          "label": "可调字号文本"
+        },
+        {
+          "format": "audio",
+          "label": "有声听读"
+        }
+      ],
+      "feasibility": {
+        "devices": {
+          "demand": 2,
+          "limit": 105,
+          "ok": true
+        },
+        "audio_license": {
+          "demand": 2,
+          "limit": 3,
+          "ok": true
+        },
+        "text_license": {
+          "demand": 0,
+          "limit": 5,
+          "ok": true
+        },
+        "teacher_hours": {
+          "demand": 77.0,
+          "limit": 78.0,
+          "ok": true
+        },
+        "network_for_audio": {
+          "demand": 2,
+          "ok": true
+        },
+        "license_window": {
+          "ok": true
+        },
+        "all_ok": true
+      },
+      "services": [
+        {
+          "person_id": "P001",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P007",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P013",
+          "kind": "必要保障",
+          "formats": [
+            "audio"
+          ],
+          "reasons": [
+            "必要保障：有声听读"
+          ]
+        },
+        {
+          "person_id": "P019",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P025",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P031",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P037",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P043",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P049",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P055",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P061",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P067",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P073",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P079",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P085",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P091",
+          "kind": "必要保障",
+          "formats": [
+            "audio"
+          ],
+          "reasons": [
+            "必要保障：有声听读"
+          ]
+        },
+        {
+          "person_id": "P097",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P103",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P109",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P115",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        }
+      ],
+      "uncovered": [],
+      "commitment_gaps": [
+        {
+          "person_id": "P091",
+          "format": "audio",
+          "reason": "听读必要学生在资料中没有必要保障承诺，下一周期须先确认，不得列入观察或试用"
+        }
+      ],
+      "score": {
+        "expected_benefit": 40,
+        "uncovered_count": 0,
+        "observe_slots_used": {
+          "paper": 0,
+          "large_text": 0,
+          "audio": 0
+        },
+        "observe_cap_per_format": 6
+      },
+      "warnings": [
+        "观察名额已压缩以保障必要服务容量"
+      ]
+    },
+    "S2": {
+      "service_id": "S2",
+      "capacity": {
+        "service_id": "S2",
+        "weeks": 13,
+        "student_device_slots_week": 120,
+        "audio_slots_week": 3,
+        "text_slots_week": 5,
+        "teacher_hours_cycle": 78.0,
+        "network_supports_audio": true,
+        "license_active_for_cycle": true,
+        "license_end": "2026-08-01",
+        "notes": []
+      },
+      "bundle": [
+        {
+          "format": "paper",
+          "label": "纸本"
+        },
+        {
+          "format": "large_text",
+          "label": "可调字号文本"
+        },
+        {
+          "format": "audio",
+          "label": "有声听读"
+        }
+      ],
+      "feasibility": {
+        "devices": {
+          "demand": 2,
+          "limit": 120,
+          "ok": true
+        },
+        "audio_license": {
+          "demand": 2,
+          "limit": 3,
+          "ok": true
+        },
+        "text_license": {
+          "demand": 0,
+          "limit": 5,
+          "ok": true
+        },
+        "teacher_hours": {
+          "demand": 77.0,
+          "limit": 78.0,
+          "ok": true
+        },
+        "network_for_audio": {
+          "demand": 2,
+          "ok": true
+        },
+        "license_window": {
+          "ok": true
+        },
+        "all_ok": true
+      },
+      "services": [
+        {
+          "person_id": "P002",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P008",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P014",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P020",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P026",
+          "kind": "必要保障",
+          "formats": [
+            "audio"
+          ],
+          "reasons": [
+            "必要保障：有声听读"
+          ]
+        },
+        {
+          "person_id": "P032",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P038",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P044",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P050",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P056",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P062",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P068",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P074",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P080",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P086",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P092",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P098",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P104",
+          "kind": "必要保障",
+          "formats": [
+            "audio"
+          ],
+          "reasons": [
+            "必要保障：有声听读"
+          ]
+        },
+        {
+          "person_id": "P110",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P116",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        }
+      ],
+      "uncovered": [],
+      "commitment_gaps": [
+        {
+          "person_id": "P104",
+          "format": "audio",
+          "reason": "听读必要学生在资料中没有必要保障承诺，下一周期须先确认，不得列入观察或试用"
+        }
+      ],
+      "score": {
+        "expected_benefit": 40,
+        "uncovered_count": 0,
+        "observe_slots_used": {
+          "paper": 0,
+          "large_text": 0,
+          "audio": 0
+        },
+        "observe_cap_per_format": 6
+      },
+      "warnings": [
+        "观察名额已压缩以保障必要服务容量"
+      ]
+    },
+    "S3": {
+      "service_id": "S3",
+      "capacity": {
+        "service_id": "S3",
+        "weeks": 13,
+        "student_device_slots_week": 135,
+        "audio_slots_week": 3,
+        "text_slots_week": 5,
+        "teacher_hours_cycle": 78.0,
+        "network_supports_audio": true,
+        "license_active_for_cycle": true,
+        "license_end": "2026-08-01",
+        "notes": []
+      },
+      "bundle": [
+        {
+          "format": "paper",
+          "label": "纸本"
+        },
+        {
+          "format": "large_text",
+          "label": "可调字号文本"
+        },
+        {
+          "format": "audio",
+          "label": "有声听读"
+        }
+      ],
+      "feasibility": {
+        "devices": {
+          "demand": 2,
+          "limit": 135,
+          "ok": true
+        },
+        "audio_license": {
+          "demand": 2,
+          "limit": 3,
+          "ok": true
+        },
+        "text_license": {
+          "demand": 0,
+          "limit": 5,
+          "ok": true
+        },
+        "teacher_hours": {
+          "demand": 77.0,
+          "limit": 78.0,
+          "ok": true
+        },
+        "network_for_audio": {
+          "demand": 2,
+          "ok": true
+        },
+        "license_window": {
+          "ok": true
+        },
+        "all_ok": true
+      },
+      "services": [
+        {
+          "person_id": "P003",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P009",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P015",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P021",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P027",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P033",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P039",
+          "kind": "必要保障",
+          "formats": [
+            "audio"
+          ],
+          "reasons": [
+            "必要保障：有声听读"
+          ]
+        },
+        {
+          "person_id": "P045",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P051",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P057",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P063",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P069",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P075",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P081",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P087",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P093",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P099",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P105",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P111",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P117",
+          "kind": "必要保障",
+          "formats": [
+            "audio"
+          ],
+          "reasons": [
+            "必要保障：有声听读"
+          ]
+        }
+      ],
+      "uncovered": [],
+      "commitment_gaps": [
+        {
+          "person_id": "P117",
+          "format": "audio",
+          "reason": "听读必要学生在资料中没有必要保障承诺，下一周期须先确认，不得列入观察或试用"
+        }
+      ],
+      "score": {
+        "expected_benefit": 40,
+        "uncovered_count": 0,
+        "observe_slots_used": {
+          "paper": 0,
+          "large_text": 0,
+          "audio": 0
+        },
+        "observe_cap_per_format": 6
+      },
+      "warnings": [
+        "观察名额已压缩以保障必要服务容量"
+      ]
+    },
+    "S4": {
+      "service_id": "S4",
+      "capacity": {
+        "service_id": "S4",
+        "weeks": 13,
+        "student_device_slots_week": 150,
+        "audio_slots_week": 3,
+        "text_slots_week": 5,
+        "teacher_hours_cycle": 78.0,
+        "network_supports_audio": true,
+        "license_active_for_cycle": true,
+        "license_end": "2026-08-01",
+        "notes": []
+      },
+      "bundle": [
+        {
+          "format": "paper",
+          "label": "纸本"
+        },
+        {
+          "format": "large_text",
+          "label": "可调字号文本"
+        },
+        {
+          "format": "audio",
+          "label": "有声听读"
+        }
+      ],
+      "feasibility": {
+        "devices": {
+          "demand": 1,
+          "limit": 150,
+          "ok": true
+        },
+        "audio_license": {
+          "demand": 1,
+          "limit": 3,
+          "ok": true
+        },
+        "text_license": {
+          "demand": 0,
+          "limit": 5,
+          "ok": true
+        },
+        "teacher_hours": {
+          "demand": 73.5,
+          "limit": 78.0,
+          "ok": true
+        },
+        "network_for_audio": {
+          "demand": 1,
+          "ok": true
+        },
+        "license_window": {
+          "ok": true
+        },
+        "all_ok": true
+      },
+      "services": [
+        {
+          "person_id": "P004",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P010",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P016",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P022",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P028",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P034",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P040",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P046",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P052",
+          "kind": "必要保障",
+          "formats": [
+            "audio"
+          ],
+          "reasons": [
+            "必要保障：有声听读"
+          ]
+        },
+        {
+          "person_id": "P058",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P064",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P070",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P076",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P082",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P088",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P094",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P100",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P106",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P112",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P118",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        }
+      ],
+      "uncovered": [],
+      "commitment_gaps": [
+        {
+          "person_id": "P052",
+          "format": "audio",
+          "reason": "听读必要学生在资料中没有必要保障承诺，下一周期须先确认，不得列入观察或试用"
+        }
+      ],
+      "score": {
+        "expected_benefit": 40,
+        "uncovered_count": 0,
+        "observe_slots_used": {
+          "paper": 0,
+          "large_text": 0,
+          "audio": 0
+        },
+        "observe_cap_per_format": 6
+      },
+      "warnings": [
+        "观察名额已压缩以保障必要服务容量"
+      ]
+    },
+    "S5": {
+      "service_id": "S5",
+      "capacity": {
+        "service_id": "S5",
+        "weeks": 13,
+        "student_device_slots_week": 165,
+        "audio_slots_week": 3,
+        "text_slots_week": 5,
+        "teacher_hours_cycle": 78.0,
+        "network_supports_audio": true,
+        "license_active_for_cycle": true,
+        "license_end": "2026-08-01",
+        "notes": []
+      },
+      "bundle": [
+        {
+          "format": "paper",
+          "label": "纸本"
+        },
+        {
+          "format": "large_text",
+          "label": "可调字号文本"
+        },
+        {
+          "format": "audio",
+          "label": "有声听读"
+        }
+      ],
+      "feasibility": {
+        "devices": {
+          "demand": 1,
+          "limit": 165,
+          "ok": true
+        },
+        "audio_license": {
+          "demand": 1,
+          "limit": 3,
+          "ok": true
+        },
+        "text_license": {
+          "demand": 0,
+          "limit": 5,
+          "ok": true
+        },
+        "teacher_hours": {
+          "demand": 73.5,
+          "limit": 78.0,
+          "ok": true
+        },
+        "network_for_audio": {
+          "demand": 1,
+          "ok": true
+        },
+        "license_window": {
+          "ok": true
+        },
+        "all_ok": true
+      },
+      "services": [
+        {
+          "person_id": "P005",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P011",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P017",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P023",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P029",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P035",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P041",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P047",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P053",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P059",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P065",
+          "kind": "必要保障",
+          "formats": [
+            "audio"
+          ],
+          "reasons": [
+            "必要保障：有声听读"
+          ]
+        },
+        {
+          "person_id": "P071",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P077",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P083",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P089",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P095",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P101",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P107",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P113",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P119",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        }
+      ],
+      "uncovered": [],
+      "commitment_gaps": [
+        {
+          "person_id": "P065",
+          "format": "audio",
+          "reason": "听读必要学生在资料中没有必要保障承诺，下一周期须先确认，不得列入观察或试用"
+        }
+      ],
+      "score": {
+        "expected_benefit": 40,
+        "uncovered_count": 0,
+        "observe_slots_used": {
+          "paper": 0,
+          "large_text": 0,
+          "audio": 0
+        },
+        "observe_cap_per_format": 6
+      },
+      "warnings": [
+        "观察名额已压缩以保障必要服务容量"
+      ]
+    },
+    "S6": {
+      "service_id": "S6",
+      "capacity": {
+        "service_id": "S6",
+        "weeks": 13,
+        "student_device_slots_week": 180,
+        "audio_slots_week": 3,
+        "text_slots_week": 5,
+        "teacher_hours_cycle": 78.0,
+        "network_supports_audio": true,
+        "license_active_for_cycle": true,
+        "license_end": "2026-08-01",
+        "notes": []
+      },
+      "bundle": [
+        {
+          "format": "paper",
+          "label": "纸本"
+        },
+        {
+          "format": "large_text",
+          "label": "可调字号文本"
+        },
+        {
+          "format": "audio",
+          "label": "有声听读"
+        }
+      ],
+      "feasibility": {
+        "devices": {
+          "demand": 1,
+          "limit": 180,
+          "ok": true
+        },
+        "audio_license": {
+          "demand": 1,
+          "limit": 3,
+          "ok": true
+        },
+        "text_license": {
+          "demand": 0,
+          "limit": 5,
+          "ok": true
+        },
+        "teacher_hours": {
+          "demand": 73.5,
+          "limit": 78.0,
+          "ok": true
+        },
+        "network_for_audio": {
+          "demand": 1,
+          "ok": true
+        },
+        "license_window": {
+          "ok": true
+        },
+        "all_ok": true
+      },
+      "services": [
+        {
+          "person_id": "P006",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P012",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P018",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P024",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P030",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P036",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P042",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P048",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P054",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P060",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P066",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P072",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P078",
+          "kind": "必要保障",
+          "formats": [
+            "audio"
+          ],
+          "reasons": [
+            "必要保障：有声听读"
+          ]
+        },
+        {
+          "person_id": "P084",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P090",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P096",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P102",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P108",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P114",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        },
+        {
+          "person_id": "P120",
+          "kind": "必要保障",
+          "formats": [
+            "paper"
+          ],
+          "reasons": [
+            "必要保障：纸本"
+          ]
+        }
+      ],
+      "uncovered": [],
+      "commitment_gaps": [
+        {
+          "person_id": "P078",
+          "format": "audio",
+          "reason": "听读必要学生在资料中没有必要保障承诺，下一周期须先确认，不得列入观察或试用"
+        }
+      ],
+      "score": {
+        "expected_benefit": 40,
+        "uncovered_count": 0,
+        "observe_slots_used": {
+          "paper": 0,
+          "large_text": 0,
+          "audio": 0
+        },
+        "observe_cap_per_format": 6
+      },
+      "warnings": [
+        "观察名额已压缩以保障必要服务容量"
+      ]
+    }
+  },
+  "commitment_audit": [
+    {
+      "person_id": "P052",
+      "service_id": "S4",
+      "format": "audio",
+      "issue": "听读必要学生缺少必要保障承诺",
+      "severity": "error"
+    },
+    {
+      "person_id": "P065",
+      "service_id": "S5",
+      "format": "audio",
+      "issue": "听读必要学生缺少必要保障承诺",
+      "severity": "error"
+    },
+    {
+      "person_id": "P078",
+      "service_id": "S6",
+      "format": "audio",
+      "issue": "听读必要学生缺少必要保障承诺",
+      "severity": "error"
+    },
+    {
+      "person_id": "P091",
+      "service_id": "S1",
+      "format": "audio",
+      "issue": "听读必要学生缺少必要保障承诺",
+      "severity": "error"
+    },
+    {
+      "person_id": "P104",
+      "service_id": "S2",
+      "format": "audio",
+      "issue": "听读必要学生缺少必要保障承诺",
+      "severity": "error"
+    },
+    {
+      "person_id": "P117",
+      "service_id": "S3",
+      "format": "audio",
+      "issue": "听读必要学生缺少必要保障承诺",
+      "severity": "error"
+    }
+  ],
+  "contingency": [
+    {
+      "service_id": "S1",
+      "effective_on": "2026-04-12",
+      "remaining_weeks": 12,
+      "capacity_before": {
+        "service_id": "S1",
+        "weeks": 13,
+        "student_device_slots_week": 105,
+        "audio_slots_week": 3,
+        "text_slots_week": 5,
+        "teacher_hours_cycle": 78.0,
+        "network_supports_audio": true,
+        "license_active_for_cycle": true,
+        "license_end": "2026-08-01",
+        "notes": []
+      },
+      "capacity_after": {
+        "service_id": "S1",
+        "weeks": 12,
+        "student_device_slots_week": 45,
+        "audio_slots_week": 1,
+        "text_slots_week": 5,
+        "teacher_hours_cycle": 72.0,
+        "network_supports_audio": true,
+        "license_active_for_cycle": true,
+        "license_end": "2026-08-01",
+        "notes": [
+          "设备数由 7 调整为 3",
+          "有声并发由 3 调整为 1"
+        ]
+      },
+      "feasibility_before": {
+        "devices": {
+          "demand": 2,
+          "limit": 105,
+          "ok": true
+        },
+        "audio_license": {
+          "demand": 2,
+          "limit": 3,
+          "ok": true
+        },
+        "text_license": {
+          "demand": 0,
+          "limit": 5,
+          "ok": true
+        },
+        "teacher_hours": {
+          "demand": 77.0,
+          "limit": 78.0,
+          "ok": true
+        },
+        "network_for_audio": {
+          "demand": 2,
+          "ok": true
+        },
+        "license_window": {
+          "ok": true
+        },
+        "all_ok": true
+      },
+      "feasibility_after": {
+        "devices": {
+          "demand": 2,
+          "limit": 45,
+          "ok": true
+        },
+        "audio_license": {
+          "demand": 2,
+          "limit": 1,
+          "ok": false
+        },
+        "text_license": {
+          "demand": 0,
+          "limit": 5,
+          "ok": true
+        },
+        "teacher_hours": {
+          "demand": 77.0,
+          "limit": 72.0,
+          "ok": false
+        },
+        "network_for_audio": {
+          "demand": 2,
+          "ok": true
+        },
+        "license_window": {
+          "ok": true
+        },
+        "all_ok": false
+      },
+      "binding_constraints": [
+        "audio_license",
+        "teacher_hours"
+      ],
+      "impacted_commitments": [
+        {
+          "commitment_id": "C13",
+          "person_id": "P013",
+          "format": "audio",
+          "kind": "necessary",
+          "impact": "at_risk",
+          "detail": "有声授权/设备容量下降，必要保障承诺需要补位或等待恢复，不能转为观察或取消"
+        }
+      ],
+      "preserved_commitments": [
+        {
+          "commitment_id": "C1",
+          "person_id": "P001",
+          "format": "large_text",
+          "kind": "observe"
+        },
+        {
+          "commitment_id": "C7",
+          "person_id": "P007",
+          "format": "large_text",
+          "kind": "observe"
+        },
+        {
+          "commitment_id": "C19",
+          "person_id": "P019",
+          "format": "large_text",
+          "kind": "observe"
+        },
+        {
+          "commitment_id": "C25",
+          "person_id": "P025",
+          "format": "large_text",
+          "kind": "observe"
+        },
+        {
+          "commitment_id": "C31",
+          "person_id": "P031",
+          "format": "large_text",
+          "kind": "observe"
+        },
+        {
+          "commitment_id": "C37",
+          "person_id": "P037",
+          "format": "large_text",
+          "kind": "observe"
+        }
+      ],
+      "remaining_observe_options": [
+        {
+          "format": "paper",
+          "label": "纸本",
+          "observe_cap": 6,
+          "note": "可在剩余内容量内维持小批量继续观察"
+        },
+        {
+          "format": "large_text",
+          "label": "可调字号文本",
+          "observe_cap": 6,
+          "note": "可在剩余内容量内维持小批量继续观察"
+        }
+      ],
+      "provenance_rule": "本服务点因故障发生的格式切换保留原始请求格式，标记为 supply_switch；后续分析禁止把切换后的格式计入学生偏好或替代格式受欢迎程度。",
+      "supply_change_id": "V1",
+      "received_on": "2026-04-13"
+    }
+  ],
+  "delivery_gap_report": {
+    "diagnosis": "若仅分析 provided 非空的请求，每个服务点将排除 6、7 条设备/授权失败记录，理解均值会系统性偏高，且故障导致的格式切换会被误读为格式偏好。",
+    "rule": "后续估计必须同时纳入三类记录并报告 fill_rate 与缺口原因；被动切换与拒绝不进入偏好统计。",
+    "by_service": {
+      "S1": {
+        "total_requests": 30,
+        "accepted": 23,
+        "supply_driven_switch": 5,
+        "license_rejected": 2,
+        "fill_rate": 0.7666666666666667,
+        "mean_among_provided_only": 70.03571428571429,
+        "mean_among_accepted_only": 72.1304347826087,
+        "excluded_if_success_only": 7
+      },
+      "S2": {
+        "total_requests": 30,
+        "accepted": 23,
+        "supply_driven_switch": 4,
+        "license_rejected": 3,
+        "fill_rate": 0.7666666666666667,
+        "mean_among_provided_only": 71.5925925925926,
+        "mean_among_accepted_only": 69.8695652173913,
+        "excluded_if_success_only": 7
+      },
+      "S3": {
+        "total_requests": 30,
+        "accepted": 23,
+        "supply_driven_switch": 4,
+        "license_rejected": 3,
+        "fill_rate": 0.7666666666666667,
+        "mean_among_provided_only": 65.25925925925925,
+        "mean_among_accepted_only": 67.34782608695652,
+        "excluded_if_success_only": 7
+      },
+      "S4": {
+        "total_requests": 30,
+        "accepted": 24,
+        "supply_driven_switch": 4,
+        "license_rejected": 2,
+        "fill_rate": 0.8,
+        "mean_among_provided_only": 61.592592592592595,
+        "mean_among_accepted_only": 60.833333333333336,
+        "excluded_if_success_only": 6
+      },
+      "S5": {
+        "total_requests": 30,
+        "accepted": 24,
+        "supply_driven_switch": 4,
+        "license_rejected": 2,
+        "fill_rate": 0.8,
+        "mean_among_provided_only": 68.88888888888889,
+        "mean_among_accepted_only": 68.0,
+        "excluded_if_success_only": 6
+      },
+      "S6": {
+        "total_requests": 30,
+        "accepted": 24,
+        "supply_driven_switch": 4,
+        "license_rejected": 2,
+        "fill_rate": 0.8,
+        "mean_among_provided_only": 68.92857142857143,
+        "mean_among_accepted_only": 68.54166666666667,
+        "excluded_if_success_only": 6
+      }
+    }
+  },
+  "post_delivery_estimation": {
+    "audio": {
+      "label": "有声听读",
+      "requests": 180,
+      "observed": 166,
+      "observed_with_score": 164,
+      "missing_due_to_rejection": 14,
+      "missing_due_to_switch": 25,
+      "observed_mean": 67.73780487804878,
+      "estimand_warning": "该均值只在实际获得服务且有分数的请求上定义；缺失不是零分，也不能假定与得分无关，应与 fill_rate 一起报告，不能作为格式效果的无偏估计。"
+    }
+  }
+}
